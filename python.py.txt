@@ -1,0 +1,10 @@
+import random
+guess=input("enter your guess")
+value=random.randint(1, 10)
+
+while chances < 5:
+      if guess == value:
+            print("Congratulation YOU WON!!!")
+      
+      if not chances < 5:
+            print("YOU LOSE!!! The number is", value)
